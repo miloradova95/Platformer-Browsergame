@@ -1,0 +1,47 @@
+<html lang="de">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+<!--Game is divided into three Areas within the HTML body (Some Styles were outsourced into the style.css file).: 
+    1.) the start Screen with a "Start Game" Button, a Artwok of the Main Character and a Story synopsis.
+    2.) The GameArea where the canvas, the backgrounds and the Soundtrack lies.
+    3.) The Game Over Screen with a fitting Screen Image.
+-->
+        <div id="startScreen" style="background-image: url('./images/Start.png');">
+            <div class="text-container">
+                As your father got abducted by the holy Legionairies, you went on a mission, 
+                to rescue him. Equpped with a bow and lots of courage, you have to fight your
+                way to the Castle, where your father is kept. Good Luck
+            </div>
+            <div class="text-container">
+                Controls:<br>
+                Jump: Space<br>
+                Move: W,A,S,D<br>
+                Shoot: L<br>
+            </div>
+            <div class="text-container">
+                Reach the next areas by looking for black rectangles on the right borders of the screen. 
+            </div>
+            <button class="button-85" role="button">Start Game</button>
+        </div>
+
+
+        <div id="gameArea">
+            <audio id="startSound" src="audio/SoundtrackFINAL.wav"></audio>
+            INAL.wav" preload="auto"></audio>
+            <div id="backgroundImage" style="background-image: url('./images/background.png'); position:absolute; left:0; top:0; width: 1476px; height: 781px; background-size: cover;"></div>
+            <canvas id="canvas" width="1476" height="781" style="width: 1476px; height: 781px; position:absolute; left:0; top:0;">
+            </canvas>
+        </div>
+
+        <div id="gameOver" style="background-image: url('./images/GameOverScreen.png');">
+            GAME OVER
+        </div>
+
+    </body>
+    <script type="module" src="script.js">
+
+    </script>
+
+</html>
