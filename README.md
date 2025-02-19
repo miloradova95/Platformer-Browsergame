@@ -9,12 +9,12 @@ The Code, Artworks and Sprites where all created by me. In-Game backgrounds were
 ![Demo](assets/1.gif)
 ![Demo](assets/Ayluu_Walk.gif)
 
-![Demo](assets/NPC_Death.gif)
-![Demo](assets/1.png)
-![Demo](assets/NPC_walk.gif)
-
 ## Class hierarchy
 ![Demo](assets/Classes.png)
 
 ## In-Game screenshot
 ![Demo](assets/Screenshot-GAME.png.1.png)
+
+![Demo](assets/NPC_Death.gif)
+![Demo](assets/1.png)
+![Demo](assets/NPC_walk.gif)
